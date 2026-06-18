@@ -21,3 +21,8 @@
 2. Создать виртуальное окружение и установить зависимости: `pip install -r requirements.txt`
 3. Создать файл `.env` с переменными `BOT_TOKEN` и `OWNER_ID`
 4. Запустить `python bot.py`
+Попробывать бота: @Beautysalonhma_demo_bot
+Пример как работает бот:
+<img width="489" height="315" alt="image" src="https://github.com/user-attachments/assets/969f4580-0702-4e1c-8d1a-2ab8a9185e3f" />
+<img width="484" height="885" alt="image" src="https://github.com/user-attachments/assets/657c9b3b-bbe3-444e-8cb2-1c1a6955ce74" />
+
