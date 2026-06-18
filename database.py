@@ -1,6 +1,12 @@
 import sqlite3
 
-DB_NAME = "salon.db"
+import sqlite3
+import os
+
+# Папка для базы: на Amvera — /data (постоянное хранилище), локально — текущая папка
+DB_DIR = os.getenv("DB_DIR", ".")
+DB_NAME = os.path.join(DB_DIR, "salon.db")
+
 
 
 def init_db():
